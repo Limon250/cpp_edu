@@ -1,8 +1,8 @@
-/* Даны координаты точки B(x,y). Определить,
-лежит ли данная точка на кривой
-y= {x^2 ; если |x|<=2
-     {4; если |x|>2
-    eps=10^-3
+/* Р”Р°РЅС‹ РєРѕРѕСЂРґРёРЅР°С‚С‹ С‚РѕС‡РєРё B(x,y). РћРїСЂРµРґРµР»РёС‚СЊ,
+Р»РµР¶РёС‚ Р»Рё РґР°РЅРЅР°СЏ С‚РѕС‡РєР° РЅР° РєСЂРёРІРѕР№
+y= {x^2 ; РµСЃР»Рё |x|<=2
+   {4; РµСЃР»Рё |x|>2
+   eps=10^-3
 */
 
 #include <iostream>
@@ -17,7 +17,7 @@ int main()
     int count;
     const double eps = pow(10, -3);
 
-    cout << "Введите значение x и y: " << endl;
+    cout << "Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ x ГЁ y: " << endl;
     cout << "1: x = 5, y = 4" << endl;
     cout << "2: x = 1, y = 6" << endl;
     cout << "3: x = 1, y = 1" << endl;
@@ -34,12 +34,12 @@ int main()
                 func = pow(x, 2);
                 if (abs(func - y) < eps)
                 {
-                    cout << "Лежит" << endl;
+                    cout << "Г‹ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
                 else
                 {
-                    cout << "Не лежит" << endl;
+                    cout << "ГЌГҐ Г«ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
             }
@@ -48,12 +48,12 @@ int main()
                 func = 4;
                 if (abs(func - y) < eps)
                 {
-                    cout << "Лежит" << endl;
+                    cout << "Г‹ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
                 else
                 {
-                    cout << "Не лежит" << endl;
+                    cout << "ГЌГҐ Г«ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
             }
@@ -67,12 +67,12 @@ int main()
                 func = pow(x, 2);
                 if (abs(func - y) < eps)
                 {
-                    cout << "Лежит" << endl;
+                    cout << "Г‹ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
                 else
                 {
-                    cout << "Не лежит" << endl;
+                    cout << "ГЌГҐ Г«ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
             }
@@ -81,12 +81,12 @@ int main()
                 func = 4;
                 if (abs(func - y) < eps)
                 {
-                    cout << "Лежит" << endl;
+                    cout << "Г‹ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
                 else
                 {
-                    cout << "Не лежит" << endl;
+                    cout << "ГЌГҐ Г«ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
             }
@@ -100,12 +100,12 @@ int main()
                 func = pow(x, 2);
                 if (abs(func - y) < eps)
                 {
-                    cout << "Лежит" << endl;
+                    cout << "Г‹ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
                 else
                 {
-                    cout << "Не лежит" << endl;
+                    cout << "ГЌГҐ Г«ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
             }
@@ -114,12 +114,12 @@ int main()
                 func = 4;
                 if (abs(func - y) < eps)
                 {
-                    cout << "Лежит" << endl;
+                    cout << "Г‹ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
                 else
                 {
-                    cout << "Не лежит" << endl;
+                    cout << "ГЌГҐ Г«ГҐГ¦ГЁГІ" << endl;
                     break;
                 }
             }
