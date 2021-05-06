@@ -18,10 +18,10 @@ int main()
     int count;
     float x;
 
-    cout << "Введите значение переменной x: " << endl;
+    cout << "Input x: " << endl;
     cin >> x;
 
-    cout << "Введите значения a, b, z: " << endl;
+    cout << "Input a, b, z: " << endl;
     cout << "1: a=6, b=3.2, z=e^1.5x" << endl;
     cout << "2: a=3 b=6 z=e^1.5x" << endl;
     cout << "3: a=2.7 b=1.8 z=e^1.5x" << endl;
