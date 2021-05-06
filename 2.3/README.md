@@ -13,7 +13,7 @@
 
 Код программы
 
-```sh
+```cpp
 #include <iostream>
 #include <math.h>
 #include <clocale>
@@ -151,7 +151,7 @@ int main()
 
 Код программы
 
-```sh
+```cpp
 #include <iostream>
 #include <math.h>
 #include <clocale>
@@ -277,7 +277,7 @@ int main()
 > умеренный (2); от 9-18 м/c - сильный (3); больше 19 м/c - ураганный (4).
 
 Код программы
-```sh
+```cpp
 #include <iostream>
 #include <clocale>
 
