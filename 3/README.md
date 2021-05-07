@@ -3,8 +3,8 @@
 ## Powered By Limon250
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-[![License](https://img.shields.io/badge/license-GNU%20V3.0-brightgreen)]
-[![Last Modified](https://img.shields.io/badge/last%20modified-07.05.2021-green)]
+![License](https://img.shields.io/badge/license-GNU%20V3.0-brightgreen)
+![Last Modified](https://img.shields.io/badge/last%20modified-07.05.2021-green)
 
 # Задание №1
 
