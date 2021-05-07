@@ -48,20 +48,49 @@ int main()
 
 # Задание №2
 
-> y =
-> 
-> 1 -> (3.5a - 7.3bx + sin(zx))^3 , if x < -ln|a|     
-> 
-> 2 -> a^b - cos^3(a+zx), if -ln|a| <= x < b          2.a=3 b=6 z=e^1.5x
-> 
-> 3 -> sqrt(|tg a - x|) - x^2, if x > b               3.a=2.7 b=1.8 z = e^1.5x
+![alt text](https://images2.imgbox.com/8b/5c/IUXn7heV_o.png)
 
 Код программы
 
 ```cpp
+#include <iostream>
+#include <clocale>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_CTYPE, "rus");
+
+    int n, k, m;
+
+    cout << "m = "; cin >> m;
+
+    float p;
+    float S;
+    for (n = -2; n <= m; n++)
+    {
+        if (n != -1 && n != 0)
+        {
+            p = 1;
+            for (k = 1; k <= n+3; k++)
+            {
+                if (k != -1 && k != 0)
+                {
+                    p *= k/(k+1);
+                }
+            }
+        }
+    }
+    S += (n+1)/n * p;
+    cout << "S = " << S << endl;;
+    return 0;
+}
 
 ```
 
+![alt text](https://images2.imgbox.com/44/f8/SkNojQjz_o.png)
 
 # Задание №3
 
